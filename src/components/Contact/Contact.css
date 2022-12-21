@@ -1,0 +1,46 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0 100px;
+    align-items: center;
+
+}
+.contact-container {
+    border: 2px  dotted  white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+
+}
+.contact-container p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contact-container p span{
+    color: tomato;
+
+}
+.contact-icon > a > button > .MuiButtonBase-root MuiIconButton-root{
+    color: white;
+    font-size: 30px;
+
+}
+.contact-icon > a > .MuiButtonBase-root{
+    color: white !important;
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

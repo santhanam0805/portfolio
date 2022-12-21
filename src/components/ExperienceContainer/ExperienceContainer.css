@@ -1,0 +1,20 @@
+.experienceContainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0;
+    align-items: center;
+}
+.experiencecontainer-info {
+    background-image: url(../image/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    z-index: 1000px;
+    width: 180vh;
+    box-shadow: inset  black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
